@@ -8,7 +8,7 @@ ansible-builder==3.1.0
     # via
     #   -r tpa-ee/aap24/build-requirements.in
     #   ansible-navigator
-ansible-compat==24.9.1
+ansible-compat==24.10.0
     # via ansible-lint
 ansible-core==2.15.13
     # via
