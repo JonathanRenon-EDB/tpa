@@ -8,7 +8,7 @@ ansible-builder==3.1.0
     # via
     #   -r tpa-ee/aap24/build-requirements.in
     #   ansible-navigator
-ansible-compat==24.9.1
+ansible-compat==24.10.0
     # via ansible-lint
 ansible-core==2.15.13
     # via
@@ -36,7 +36,7 @@ cffi==1.17.1
     #   onigurumacffi
 click==8.1.7
     # via black
-cryptography==43.0.3
+cryptography==44.0.0
     # via ansible-core
 distro==1.9.0
     # via bindep
@@ -100,7 +100,7 @@ pycparser==2.22
     # via cffi
 pygments==2.18.0
     # via rich
-python-daemon==3.1.0
+python-daemon==3.1.2
     # via ansible-runner
 pyyaml==6.0.2
     # via
@@ -119,7 +119,7 @@ resolvelib==1.0.1
     # via ansible-core
 rich==13.9.4
     # via ansible-lint
-rpds-py==0.21.0
+rpds-py==0.22.3
     # via
     #   jsonschema
     #   referencing
@@ -131,7 +131,7 @@ subprocess-tee==0.4.2
     # via
     #   ansible-compat
     #   ansible-lint
-tomli==2.1.0
+tomli==2.2.1
     # via black
 typing-extensions==4.12.2
     # via
@@ -146,6 +146,3 @@ yamllint==1.35.1
     # via ansible-lint
 zipp==3.21.0
     # via importlib-metadata
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
