@@ -31,7 +31,7 @@
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
 
-  "pip-requirements": {
+  "pip_requirements": {
     "fileMatch": [
       "(^|/)[\\w-]*requirements([/])?([-]\\w+)*\\.(txt|pip)$"
     ],
