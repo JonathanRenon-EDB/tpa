@@ -30,17 +30,19 @@
   "commitMessagePrefix": "[Dep Update] ",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
+
   "pip-compile": {
     "fileMatch": [
-      "requirements.*.txt$",
-      "requirements/.*.txt$",
-      ""
+      "/^requirements.*[.]txt$/",
+      "/^requirements\/.*[.]txt$/",
+      "/tpa-ee\/aap24\/build-requirements.txt/"
     ],
     "labels": [
       "pip dependencies",
       "renovate"
     ]
   },
+
   "ansible-galaxy": {
     "labels": [
       "ansible dependencies",
