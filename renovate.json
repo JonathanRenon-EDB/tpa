@@ -23,7 +23,7 @@
   "separateMinorPatch": true,
 
   "enabledManagers": [
-    "pip-compile",
+    "pip_requirements",
     "ansible-galaxy",
     "github-actions"
   ],
