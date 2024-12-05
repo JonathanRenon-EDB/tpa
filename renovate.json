@@ -27,7 +27,7 @@
     "ansible-galaxy",
     "github-actions"
   ],
-  "commitMessagePrefix": "[Dep Update] ",
+  "commitMessagePrefix": "[{{#if isMajor}}Major{{else}}{{#if isMinor}}Minor{{else}}Bugfix{{/if}}{{/if}} Update]",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
 
