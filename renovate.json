@@ -33,9 +33,7 @@
 
   "pip-compile": {
     "fileMatch": [
-      "/^requirements.*[.]txt$/",
-      "/^requirements\/.*[.]txt$/",
-      "/tpa-ee\/aap24\/build-requirements.txt/"
+      "/^requirements.*[.]txt$/"
     ],
     "labels": [
       "pip dependencies",
