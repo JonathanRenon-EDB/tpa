@@ -6,22 +6,17 @@
     ":dependencyDashboardApproval",
     "schedule:earlyMondays"
   ],
-
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
-
   "reviewers": [
     "EnterpriseDB/tpaexec-dev-team"
   ],
-
   "baseBranches": [
     "main"
   ],
-
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "separateMinorPatch": true,
-
   "enabledManagers": [
     "pip_requirements",
     "ansible-galaxy",
@@ -30,17 +25,15 @@
   "commitMessagePrefix": "[{{#if isMajor}}Major{{else}}{{#if isMinor}}Minor{{else}}Bugfix{{/if}}{{/if}} Update]",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
-
   "pip_requirements": {
-    "fileMatch": [
-      "(^|/)[\\w-]*requirements([/])?([-]\\w+)*\\.(txt|pip)$"
+    "managerFilePatterns": [
+      "/(^|/)[\\w-]*requirements([/])?([-]\\w+)*\\.(txt|pip)$/"
     ],
     "labels": [
       "pip dependencies",
       "renovate"
     ]
   },
-
   "ansible-galaxy": {
     "labels": [
       "ansible dependencies",
